@@ -14,7 +14,7 @@ cache:
   enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: false
+minify: true
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -97,7 +97,7 @@ open_graph:
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  about: /about/ || fa fa-user
+  #about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
@@ -720,10 +720,10 @@ gitalk:
   enable: true
   github_id: luoling8192 # GitHub repo owner
   repo: blog # Repository name to store issues
-  client_id: Iv1.7c5d9f66e82839d8 # GitHub Application Client ID
-  client_secret: 21b9efc7af0b1cbda53bc1892c6f8d0618a1c83c # GitHub Application Client Secret
-  admin_user: luoling8192 # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
-  distraction_free_mode: true # Facebook-like distraction free mode
+  client_id: 'Iv1.7c5d9f66e82839d8' # GitHub Application Client ID
+  client_secret: '21b9efc7af0b1cbda53bc1892c6f8d0618a1c83c' # GitHub Application Client Secret
+  admin_user: ['luoling8192'] # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  distraction_free_mode: false # Facebook-like distraction free mode
   # When the official proxy is not available, you can change it to your own proxy address
   proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy address
   # Gitalk's display language depends on user's browser or system environment
