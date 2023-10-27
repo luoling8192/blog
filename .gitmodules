@@ -1,3 +1,6 @@
 [submodule "themes/journal"]
 	path = themes/journal
 	url = git@github.com:luoling8192/hexo-theme-journal.git
+[submodule "themes/next"]
+	path = themes/next
+	url = https://github.com/next-theme/hexo-theme-next

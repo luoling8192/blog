@@ -1,0 +1,39 @@
+sidebar_title: "RainbowBird"
+sidebar_subtitle: "以梦为马，不负韶华。"
+
+toc: true
+
+rss: atom.xml
+
+# Customize the sidebar nav menu
+menu:
+    Archive: /archives
+    Tags: /tags
+    Friends: /friends
+    About: /about
+
+cdn:
+    # Support public CDN names: cdnjs, loli, baomitu, unpkg, jsdelivr
+    libs: cdnjs
+    # The base URL of Google Fonts CDN (e.g. "https://fonts.loli.net")
+    fonts: https://fonts.googleapis.com
+
+hljsTheme: null
+
+# Choose the comment service according to your need.
+# Please do not use the two services at the same time.
+livere: # [data-uid] for livere.com
+disqus: # [short_name] for disqus.com
+giscus:
+    # Use the official giscus app
+    app: https://giscus.app/client.js
+    # The options, see "Enable giscus" section in https://giscus.app/
+    repo: # [ENTER REPO HERE]
+    repo-id: # [ENTER REPO ID HERE]
+    category: # [ENTER CATEGORY NAME HERE]
+    category-id: # [ENTER CATEGORY ID HERE]
+    mapping: pathname
+    reactions-enabled: 1
+    emit-metadata: 0
+    theme: light
+    lang: zh-CN
