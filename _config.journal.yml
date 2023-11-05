@@ -10,7 +10,6 @@ menu:
     Archive: /archives
     Tags: /tags
     Friends: /friends
-    About: /about
 
 cdn:
     # Support public CDN names: cdnjs, loli, baomitu, unpkg, jsdelivr
@@ -18,7 +17,7 @@ cdn:
     # The base URL of Google Fonts CDN (e.g. "https://fonts.loli.net")
     fonts: https://fonts.googleapis.com
 
-hljsTheme: null
+hljsTheme: github
 
 # Choose the comment service according to your need.
 # Please do not use the two services at the same time.
