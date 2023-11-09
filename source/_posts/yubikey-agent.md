@@ -20,6 +20,8 @@ tags:
 
 根据你使用的环境，可以把对应的 Settings 添加到你的配置文件中。
 
+** 可以把 `SSH_AUTH_SOCK` 加到系统的环境变量中，这样在 VSCode 里面也可以使用 **
+
 可以把 `WinCryptSSHAgent` 添加到 `shell:startup` 目录下，以便做到开机自启动。
 
 最后可以通过 `ssh -T git@github.com` 检查是否生效。
