@@ -7,6 +7,8 @@ tags:
     - 二叉树
 ---
 
+<!--more-->
+
 ```cpp
 struct AVL {
     int value;
