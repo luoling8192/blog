@@ -14,6 +14,8 @@ title: 朋友们
 
 - [Leohearts](https://leohearts.com/)
 
+- [莲子](https://blog.rinkoqwq.com)
+
 - [北雁云依](https://stblog.penclub.club/)
 
 - [一夜知秋](https://www.qy.al/)
