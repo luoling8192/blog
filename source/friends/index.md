@@ -2,6 +2,20 @@
 title: 朋友们
 ---
 
+**👏欢迎留言交换友链**
+
 - [Clansty](https://nyac.at)
 
 - [Menci](https://men.ci)
+
+- [小蓝莓](https://qwwq.org/)
+
+- [山前](https://estela.moe/)
+
+- [Leohearts](https://leohearts.com/)
+
+- [北雁云依](https://stblog.penclub.club/)
+
+- [一夜知秋](https://www.qy.al/)
+
+- [倚窗，听雨](https://blog.coelacanthus.moe/)
