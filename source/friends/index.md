@@ -21,3 +21,9 @@ title: 朋友们
 - [一夜知秋](https://www.qy.al/)
 
 - [倚窗，听雨](https://blog.coelacanthus.moe/)
+
+- [AtomAlpaca](https://www.atal.moe)
+
+- [梓瑶](https://ziyao233.github.io)
+
+- [Cody](https://blogger.cd.al/)
