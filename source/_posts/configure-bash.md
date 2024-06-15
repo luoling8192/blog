@@ -1,5 +1,5 @@
 ---
-title: macOS新系统配置脚本
+title: macOS 新系统配置脚本
 date: 2023-10-27 16:31:00
 tags:
     - macOS

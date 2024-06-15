@@ -1,5 +1,5 @@
 ---
-title: Windows下Webstorm无法使用安装的字体
+title: Windows 下 Webstorm 无法使用安装的字体
 date: 2024-03-12 22:21:00
 tags:
     - Windows
@@ -15,9 +15,9 @@ tags:
 ## 发现
 在有一次偶然的发现中，我找到了导致这个奇葩问题的原因。
 
-在 Windows 中除了有系统的字体文件夹（`C:\Windows\Fonts\`）以外，还存在着用户自己的字体文件夹，这也是导致 Webstorm 找不到字体的罪魁祸首。
+在 Windows 中除了有系统的字体文件夹（C:\Windows\Fonts\）以外，还存在着用户自己的字体文件夹，这也是导致 Webstorm 找不到字体的罪魁祸首。
 
 ## 解决
-用户字体文件夹在 `%LocalAppData%\Microsoft\Windows\Fonts\` 下，把你需要的字体拷贝一份到系统文件夹下就可以了。
+用户字体文件夹在 %LocalAppData%\Microsoft\Windows\Fonts\ 下，把你需要的字体拷贝一份到系统文件夹下就可以了。
 
 记住以后不要再右键安装字体文件了。
