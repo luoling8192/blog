@@ -4,9 +4,9 @@ title: 朋友们
 
 **👏欢迎留言交换友链**
 
-- [Clansty](https://nyac.at)
+- [Clansty](https://nyac.at/)
 
-- [Menci](https://men.ci)
+- [Menci](https://men.ci/)
 
 - [小蓝莓](https://qwwq.org/)
 
@@ -27,3 +27,5 @@ title: 朋友们
 - [梓瑶](https://ziyao233.github.io)
 
 - [Cody](https://blogger.cd.al/)
+
+- [Chaoszhu'Blog](https://chaoszhu.com/)
