@@ -2,14 +2,14 @@
 title: 使用 Yubikey 在 Windows 和 macOS 下提供 SSH 私钥
 date: 2023-11-04 17:43:22
 tags:
-    - yubikey
-    - gpg
-    - ssh
+    - Yubikey
+    - GPG
+    - SSH
     - Windows
     - macOS
 ---
 
-看本文之前，你应该已经会使用 yubikey 官方的工具来创建 PIV 和 gpg-key。
+看本文之前，你应该已经会使用 Yubikey 官方的工具来创建 PIV 和 gpg-key。
 
 <!--more-->
 
