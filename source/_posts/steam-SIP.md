@@ -5,9 +5,7 @@ tags:
     - macOS
     - SIP
     - Hackintosh
-    - Steam
-    - Postman
-    - 百度网盘
+    - 踩坑
 ---
 
 ## 起因
