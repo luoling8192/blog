@@ -14,9 +14,9 @@ tags:
 <!--more-->
 
 ## Windows
-根据[该教程](https://github.com/buptczq/WinCryptSSHAgent/blob/master/doc/wsl_tutorial.md)执行操作。
+根据 [该教程](https://github.com/buptczq/WinCryptSSHAgent/blob/master/doc/wsl_tutorial.md) 执行操作。
 
-创建好PIV后，右键 WinCryptSSHAgent 托盘图标，点击 Show Public Keys，并把其添加到 Github 中。
+创建好 PIV 后，右键 WinCryptSSHAgent 托盘图标，点击 Show Public Keys，并把其添加到 Github 中。
 
 根据你使用的环境，可以把对应的 Settings 添加到你的配置文件中。
 

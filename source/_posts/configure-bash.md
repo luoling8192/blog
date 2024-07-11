@@ -44,17 +44,17 @@ defaults write com.apple.AppleMultitouchTrackpad "FirstClickThreshold" -int 0
 #defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad "Clicking" -int 1
 defaults write com.apple.AppleMultitouchTrackpad "TrackpadThreeFingerDrag" -bool true # 三指拖移
 
-# 安装Xcode工具
+# 安装 Xcode 工具
 if ! command -v git > /dev/null 2>&1; then
     xcode-select --install
 fi
 
-# 安装Homebrew
+# 安装 Homebrew
 if ! command -v brew > /dev/null 2>&1; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-# 安装zim:fw
+# 安装 zim:fw
 if ! command -v zimfw > /dev/null 2>&1; then
     curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 fi
@@ -71,20 +71,20 @@ brew install stats monitorcontrol rectangle appcleaner # alttab
 # 安装黑苹果工具
 brew install hackintool opencore-configurator
 
-# 安装GPG
+# 安装 GPG
 brew install gnupg pinentry-mac
 
-# 安装Node环境
+# 安装 Node 环境
 brew install node pnpm
 
-# 配置Node环境
+# 配置 Node 环境
 pnpm setup
 source ~/.zshrc
 
-# 安装pm2
+# 安装 pm2
 pnpm install -g pm2
 
-# 添加alias
+# 添加 alias
 echo "alias ls='exa'" >> ~/.zshrc
 echo "alias ll='exa -lah'" >> ~/.zshrc
 echo "alias vim='nvim'" >> ~/.zshrc
@@ -92,7 +92,7 @@ echo "alias vim='nvim'" >> ~/.zshrc
 # 安装字体，可以创建自己的字体包文件
 # unzip fonts.zip -d ~/Library/Fonts/
 
-# pm2初始化
+# pm2 初始化
 pm2 startup
 mkdir -p ~/Library/LaunchAgents
 sudo pm2 startup launchd -u $USER --hp $HOME
