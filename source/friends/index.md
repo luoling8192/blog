@@ -29,3 +29,7 @@ title: 朋友们
 - [Cody](https://blogger.cd.al/)
 
 - [Chaoszhu'Blog](https://chaoszhu.com/)
+
+- [Dustella 的自留地](https://dustella.net/)
+
+- [StevenRCE0](//rcex.live/)
