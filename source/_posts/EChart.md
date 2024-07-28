@@ -9,7 +9,7 @@ tags:
 
 ## TL;DR
 
-当 EChart 提示 height 为 0 时，加入 :autoresize="true" 即可解决。
+当 EChart 提示 height 为 0 时，加入 `:autoresize="true"` 即可解决。
 
 ```html
 <VChart :option="option" :autoresize="true" />
