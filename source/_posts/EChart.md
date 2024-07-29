@@ -5,6 +5,7 @@ tags:
     - Vue
     - ECharts
     - Nuxt
+    - 踩坑
 ---
 
 ## TL;DR
