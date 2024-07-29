@@ -1,8 +1,9 @@
 ---
-title: 关于在 Vue 中 onClick 导致 ESLint 报错的问题
+title: 关于在 Vue + TSX 中使用 onClick 导致 ESLint 报错的问题
 date: 2024-07-30 02:00:25
 tags:
     - Vue
+    - TSX
     - 踩坑
 ---
 
