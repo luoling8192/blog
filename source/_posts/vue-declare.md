@@ -9,7 +9,7 @@ tags:
 
 ## TL;DR
 
-创建一个 `vue.d.ts` 的文件，内容如下：
+创建一个 vue.d.ts 的文件，内容如下：
 
 ```typescript
 import Vue from 'vue'
