@@ -9,9 +9,9 @@ tags:
 
 可以在 constant.ts 中直接 import package.json 并使用其中的版本号：
 
-```typescript
+```javascript
 import pkg from '../package.json';
 
 const version = pkg.version;
 console.log(version); // 1.0.0
-``
+```
