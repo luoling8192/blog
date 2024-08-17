@@ -35,8 +35,6 @@ $devices = Get-ChildItem -Path $regPath | Where-Object { $_.PSChildName -like "V
 
 foreach ($device in $devices) {
     $deviceParamsPath = "$($device.PSPath)\**\Device Parameters"
-
-    echo $deviceParamsPath
     
     # 检查 Device Parameters 是否存在
     if (Test-Path $deviceParamsPath) {
