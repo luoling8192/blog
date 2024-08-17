@@ -1,7 +1,9 @@
 ---
-title: windows-nature-scrolling
+title: Windows 自然滚动 Powershell 脚本
 date: 2024-08-17 20:00:35
 tags:
+  - Windows
+  - Powershell
 ---
 
 ## 起因
