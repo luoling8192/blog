@@ -9,3 +9,7 @@ tags:
 ## 解决方法
 
 开启 nesting 功能
+
+## 参考资料
+
+[systemd "Failed to set up mount namespacing" · Issue #4127 · lxc/lxc](https://github.com/lxc/lxc/issues/4127)

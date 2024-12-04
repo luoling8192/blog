@@ -8,7 +8,7 @@ tags:
     - 踩坑
 ---
 
-## TL;DR
+## 解决方法
 
 当 EChart 提示 height 为 0 时，加入 `:autoresize="true"` 即可解决。
 
