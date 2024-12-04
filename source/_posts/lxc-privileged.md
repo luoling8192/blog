@@ -1,0 +1,11 @@
+---
+title: Pve 使用 lxc 特权容器导致 systemd-networkd 无法启动
+date: 2024-12-04 21:26:02
+tags:
+    - pve
+    - lxc
+---
+
+## 解决方法
+
+开启 nesting 功能
