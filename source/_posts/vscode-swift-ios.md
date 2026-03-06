@@ -39,7 +39,7 @@ SourceKit-LSP 能理解的项目格式只有两种：
 | FirePlusTeam Swift iOS Xcode IDE | ✅         | ✅                 | 中等     |
 | 手动生成 compile_commands.json   | ✅         | ❌                 | 折腾     |
 
-最终选了 **SweetPad**——配置最简单，功能也够全。下面一步一步来。
+最终选了 **SweetPad**——配置最简单，功能也够全。
 
 ## 配置过程
 
@@ -98,8 +98,6 @@ SweetPad: Build
 - 跳转定义 ✅
 - 查找引用 ✅
 - 实时错误诊断 ✅
-
-舒服了。
 
 ### 第五步：运行和调试
 
