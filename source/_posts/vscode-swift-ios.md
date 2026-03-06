@@ -17,6 +17,8 @@ VSCode 装上 Swift 官方插件后，发现 LSP 居然不工作，只有 VSCode
 
 折腾了一圈，终于配出了一个能用的环境，记录一下过程，希望能帮到同样想逃离 Xcode 的人。
 
+<!--more-->
+
 ## 先搞清楚：为什么官方插件不认我的项目？
 
 VSCode 的 Swift 语言智能（补全、跳转、诊断等）底层是 [SourceKit-LSP](https://github.com/swiftlang/sourcekit-lsp)。这个 LSP 需要知道每个源文件的编译参数（头文件搜索路径、宏定义、SDK 路径等），才能正确分析代码。
