@@ -1,5 +1,5 @@
 ---
-title: 告别 Xcode：用 VSCode 配置一个舒适的 iOS 开发环境
+title: 告别 Xcode：用 VSCode 配置一个舒适的 Swift 开发环境
 date: 2026-03-06 16:00:00
 tags:
   - iOS
@@ -9,7 +9,7 @@ tags:
 
 ## 起因
 
-最近开始接触 iOS 开发，但是 XCode 是众所周知的难用。作为一个习惯了 VSCode 生态的开发者，我决定试试能不能在 VSCode 里写 iOS 项目。
+最近开始接触 iOS / Swift 开发，但是 XCode 是众所周知的难用。作为一个习惯了 VSCode 生态的开发者，我决定试试能不能在 VSCode 里写 iOS 项目。
 
 然后第一步就困住了：怎么配环境呢？
 
