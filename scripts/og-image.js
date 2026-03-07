@@ -46,37 +46,103 @@ async function renderOgImage(title, siteName, dateStr) {
           height: '100%',
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'space-between',
-          padding: '60px 80px',
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-          color: '#fff',
+          justifyContent: 'flex-end',
+          padding: '60px 72px',
+          background: '#0f0f0f',
+          color: '#e8e8e8',
           fontFamily: 'Noto Sans SC',
+          position: 'relative',
+          overflow: 'hidden',
         },
         children: [
-          {
-            type: 'div',
-            props: {
-              style: { fontSize: 24, opacity: 0.8 },
-              children: siteName,
-            },
-          },
+          // Top-right decorative accent circle
           {
             type: 'div',
             props: {
               style: {
-                fontSize: title.length > 30 ? 42 : 56,
+                position: 'absolute',
+                top: '-120px',
+                right: '-80px',
+                width: '400px',
+                height: '400px',
+                borderRadius: '50%',
+                background: 'linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%)',
+                opacity: 0.15,
+              },
+            },
+          },
+          // Bottom-left decorative accent
+          {
+            type: 'div',
+            props: {
+              style: {
+                position: 'absolute',
+                bottom: '-60px',
+                left: '-40px',
+                width: '240px',
+                height: '240px',
+                borderRadius: '50%',
+                background: 'linear-gradient(135deg, #06b6d4 0%, #6366f1 100%)',
+                opacity: 0.1,
+              },
+            },
+          },
+          // Accent bar
+          {
+            type: 'div',
+            props: {
+              style: {
+                width: '64px',
+                height: '4px',
+                background: 'linear-gradient(90deg, #6366f1, #a855f7, #ec4899)',
+                borderRadius: '2px',
+                marginBottom: '28px',
+              },
+            },
+          },
+          // Title
+          {
+            type: 'div',
+            props: {
+              style: {
+                fontSize: title.length > 30 ? 44 : 58,
                 fontWeight: 700,
-                lineHeight: 1.3,
+                lineHeight: 1.35,
                 overflow: 'hidden',
+                letterSpacing: '-0.02em',
+                color: '#ffffff',
               },
               children: title,
             },
           },
+          // Bottom row: site name + date
           {
             type: 'div',
             props: {
-              style: { fontSize: 20, opacity: 0.7 },
-              children: dateStr,
+              style: {
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                marginTop: '40px',
+                paddingTop: '24px',
+                borderTop: '1px solid rgba(255,255,255,0.08)',
+              },
+              children: [
+                {
+                  type: 'div',
+                  props: {
+                    style: { fontSize: 22, color: '#a1a1aa' },
+                    children: siteName,
+                  },
+                },
+                {
+                  type: 'div',
+                  props: {
+                    style: { fontSize: 20, color: '#71717a' },
+                    children: dateStr,
+                  },
+                },
+              ],
             },
           },
         ],
