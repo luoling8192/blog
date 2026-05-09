@@ -37,3 +37,5 @@ title: 朋友们
 - [雪花の博客](https://xhblog.top)
 
 - [烟波](https://yanbowa.ng)
+
+- [绯鞠的博客](https://loli.fj.cn)
