@@ -35,3 +35,5 @@ title: 朋友们
 - [StevenRCE0](https://rcex.live)
 
 - [雪花の博客](https://xhblog.top)
+
+- [烟波](https://yanbowa.ng)
