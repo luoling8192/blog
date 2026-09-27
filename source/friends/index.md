@@ -24,7 +24,7 @@ title: 朋友们
 
 - [AtomAlpaca](https://www.atal.moe)
 
-- [梓瑶](https://ziyao233.github.io)
+- [梓瑶](https://blog.ziyao.cc)
 
 - [Cody](https://blogger.cd.al)
 
